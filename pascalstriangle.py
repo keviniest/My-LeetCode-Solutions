@@ -44,6 +44,4 @@ def generate(numRows: int) -> List[List[int]]:
 				continue
 			result[i][j + 1] = result[i - 1][j] + result[i - 1][j + 1]
 	return result
-
-if __name__ == "__main__":
-	print(generate(1))
+	
